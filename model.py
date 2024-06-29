@@ -4,4 +4,4 @@ def checkFake(img: Image.Image):
     # For example
     # isFake = model(img)
     # return isFake
-    return False
+    return 0.3  # FIXME: Delete this line when implemented.

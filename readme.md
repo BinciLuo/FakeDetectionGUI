@@ -10,7 +10,7 @@ You can change some settings in `config.json`.
 |--|--|
 |title| Titile in GUI|
 |port| Port where the demo runs in|
-|||
+|threshold| Threshold of fake result|
 ## Run
 ```bash
 python webui.py
