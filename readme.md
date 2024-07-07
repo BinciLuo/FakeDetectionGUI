@@ -20,7 +20,7 @@ When you click some `components` or `components` were changed, `event` occurs. Y
 ![](./resource/image1.png)
 
 For example, `{$COMPONENTS}.click({$PROCESSING_FUNCTION},[{$INPUTS}],[$OUTPUTS])` or `{$COMPONENTS}.change({$PROCESSING_FUNCTION},[{$INPUTS}],[$OUTPUTS])`
-`webui.py` shows where the components exist and how will they react with each other.
+`example_webui.py` shows where the components exist and how will they react with each other.
 
 ## 演示
 ### 用法
@@ -43,4 +43,4 @@ Web 界面由许多 `gradio` 组件构建。例如，`gr.Textbox` 可用作文�
 当你点击某些 `组件` 或 `组件` 发生变化时，会触发 `事件`。你应该将每个有用的 `事件` 与 `处理函数` 绑定，其输入和输出应为 `Gradio` 的 `组件`。
 
 例如，`{$COMPONENTS}.click({$PROCESSING_FUNCTION},[{$INPUTS}],[$OUTPUTS])` 或 `{$COMPONENTS}.change({$PROCESSING_FUNCTION},[{$INPUTS}],[$OUTPUTS])`
-`webui.py` 显示了组件的存在位置以及它们如何相互反应。
+`example_webui_zh.py` 显示了组件的存在位置以及它们如何相互反应。
