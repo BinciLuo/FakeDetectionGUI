@@ -1,5 +1,18 @@
 {
-    "title": "Deep Fake Demo",
+    "title": "Demo", 
     "port": 27777,
-    "threshold": 0.7
+    "inference": {
+        "example_silder_default_value": 1.5,
+
+        "example_number_default_value": 0.1,
+        
+        "example_dropdown_default_value": "default_selection",
+        "example_dropdown_enum": [
+            "default_selection",
+            "example1",
+            "example2",
+            "example3"
+        ]
+
+    }
 }

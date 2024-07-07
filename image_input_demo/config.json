@@ -1,0 +1,18 @@
+{
+    "title": "Demo", 
+    "port": 27777,
+    "inference": {
+        "example_silder_default_value": 1.5,
+
+        "example_number_default_value": 0.1,
+        
+        "default_inference_mode": "mode1",
+        "inference_mode_dropdown_enum": [
+            "mode1",
+            "mode2",
+            "mode3",
+            "mode4"
+        ]
+
+    }
+}
